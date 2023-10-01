@@ -1,0 +1,36 @@
+/* #titulo{
+    background-color: #854454;
+    padding: 0%;
+    animation-name: movimiento;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    width: 100%;
+}
+@keyframes movimiento{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+} */
+/* animation-name (Se le define un apodo para mover la imagen)
+
+animation-duration (Se define la duracion de la animacion, entre más tenga, mas lento va ej: 30s)
+
+animation-iteration-count (Son las veces en que la animacion se ejecutará, aqui se le colocaría infinito)
+
+animation-direction (Se le coloca alternative, para que cuando acabe, no de el comienzo bruzco)
+
+Luego de definir las animaciones se colocan las propiedades
+
+@keyframes (el apodo) {
+	0%{
+		transform: translateX(0);
+	}
+	100%{
+		transform: translateX(100%)
+	}
+} */
